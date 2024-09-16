@@ -1,0 +1,69 @@
+$color-main: #6bfa8c;
+$color-secondary: #5f9be3;
+$color-main-hover: #5f9be3;
+$color-pixel-border: #228922;
+$color-icon: #ecf000;
+$color-font-black: #000000;
+$color-font-white: #ffffff;
+$color-hover: rgba(255, 255, 255, 0.3);
+$color-white: #ffffff;
+$color-black: #000000;
+$color-error: red;
+$color-success: green;
+$color-tooltip-bg: #d8fcd2;
+$color-main-bg: linear-gradient(
+  0deg,
+  rgba(0, 0, 0, 1) 25%,
+  rgba(43, 156, 230, 1) 51%,
+  rgba(29, 160, 246, 1) 64%,
+  rgba(0, 23, 38, 1) 100%
+);
+$color-top-bar-bg: #000f21;
+$color-close-icon-hover: red;
+$color-bg-header: linear-gradient(
+  0deg,
+  rgba(0, 23, 38, 1) 0%,
+  rgba(0, 15, 33, 1) 99%
+);
+$input-pixel-shadow-color-main:
+  -4px 0 0 0 $color-main,
+  4px 0 0 0 $color-main,
+  0 -4px 0 0 $color-main,
+  0 4px 0 0 $color-main;
+
+$input-pixel-shadow-color-black:
+  -4px 0 0 0 $color-black,
+  4px 0 0 0 $color-black,
+  0 -4px 0 0 $color-black,
+  0 4px 0 0 $color-black;
+
+$button-pixel-shadow:
+  -4px 0 0 -2px $color-pixel-border,
+  -8px 0 0 -4px $color-pixel-border,
+  4px 0 0 -2px $color-pixel-border,
+  8px 0 0 -4px $color-pixel-border;
+
+$clip-path-pixel: polygon(
+  0px calc(100% - 8px),
+  4px calc(100% - 8px),
+  4px calc(100% - 4px),
+  8px calc(100% - 4px),
+  8px 100%,
+  calc(100% - 8px) 100%,
+  calc(100% - 8px) calc(100% - 4px),
+  calc(100% - 4px) calc(100% - 4px),
+  calc(100% - 4px) calc(100% - 8px),
+  100% calc(100% - 8px),
+  100% 8px,
+  calc(100% - 4px) 8px,
+  calc(100% - 4px) 4px,
+  calc(100% - 8px) 4px,
+  calc(100% - 8px) 0px,
+  8px 0px,
+  8px 4px,
+  4px 4px,
+  4px 8px,
+  0px 8px
+);
+$font-main: 'fifaks', monospace;
+$font-eng: 'VT323', monospace;

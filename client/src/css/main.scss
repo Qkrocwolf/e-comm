@@ -1,0 +1,50 @@
+@import './normalize.scss';
+@import './variables.scss';
+@import './components.scss';
+@font-face {
+  font-family: 'fifaks';
+  src: url(../fonts/Fifaks10Dev1.ttf);
+}
+
+@font-face {
+  font-family: 'VT323';
+  src: url(../fonts/VT323-Regular.ttf);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+body {
+  font-family: $font-main;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-font-black;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
